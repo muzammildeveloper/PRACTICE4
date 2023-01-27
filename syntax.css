@@ -1,0 +1,24 @@
+body {
+  height: 700px;
+}
+.container {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  background: blue;
+  top: 50%;
+  left: 50%;
+  border: 2px solid;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+.rectangle {
+  width: 350px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: red;
+  border: 2px solid;
+  transform: translate(-50%, -50%);
+}
